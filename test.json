@@ -1,0 +1,72 @@
+{
+  "id": 3557891,
+  "address": {
+    "criteria_id": 1,
+    "serverId": 3557891,
+    "number": 3,
+    "hasHousePlate": 1,
+    "hasPillar": 0,
+    "name": null,
+    "latitude": -6.1782621,
+    "longitude": 35.7426065,
+    "accuracy": "3.90000000",
+    "road_id": 46653,
+    "type_id": 2,
+    "state_id": 3,
+    "buildingStatus": 2,
+    "buildingName": null,
+    "isSurveyed": 1,
+    "plotNumber": null,
+    "blockNumber": null,
+    "plotLocation": null,
+    "hasBuilding": 1,
+    "isBase": 1,
+    "usage_id": 1,
+    "wingsCount": 2,
+    "wings": [
+      {
+        "id": 1,
+        "name": "A"
+      },
+      {
+        "id": 2,
+        "name": "B"
+      }
+    ],
+    "flets": 5
+  },
+  "businesses": [],
+  "subaddresses": [],
+  "occupiers": [
+    {
+      "id": 323743,
+      "model_type": 2,
+      "property_type": 1,
+      "firstName": null,
+      "middleName": null,
+      "lastName": null,
+      "gender": null,
+      "birthDate": null,
+      "nidaNumber": null,
+      "passport": null,
+      "nationality_id": 1,
+      "property_id": 3557891,
+      "livesHere": 0,
+      "type": 0,
+      "mobile": "0755833668",
+      "email": null,
+      "postbox": null,
+      "name": "TANZANIABUILDINGAGENCY",
+      "abbreviation": "TBA",
+      "registrationNumber": null,
+      "registrationDate": null,
+      "tin": null,
+      "category_id": 1,
+      "supervisor_id": null,
+      "telephone": [],
+      "businesses": [],
+      "residence": [],
+      "ownership": []
+    }
+  ]
+}
