@@ -15,4 +15,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 11. [Tailwind setup](https://tailwindcss.com/docs/guides/angular)
 
 
+### Open on Different Port
+- ``` ng serve --port 8080 --open ```
+
+
 
