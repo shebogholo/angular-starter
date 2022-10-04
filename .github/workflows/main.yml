@@ -7,8 +7,8 @@ on:
 
 jobs:
   build:
-    name: All Steps (Build, Test & Deploy)
-    runs-on: ubuntu-latest
+    name: Build
+    runs-on: ubuntu-20.04
 
     strategy:
       matrix:
@@ -16,7 +16,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
       - name: Cache node modules
         uses: actions/cache@v3
         with:
