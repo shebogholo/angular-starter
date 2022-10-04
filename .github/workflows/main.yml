@@ -37,22 +37,21 @@ jobs:
         run: npm run build --prod
 
   deploy:
-    name: Deploy
+    name:  Copy folder to server
     runs-on: ubuntu-20.04
     needs: build
     steps:
       - uses: actions/checkout@v3
       - name: Deploy to server
-        uses: appleboy/ssh-action@master
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          script: |
-            cd /var/www/html/
-            git pull
-            npm ci
-            npm run build --prod
+          source: "dist/"
+          target: "/var/www/html/"
+
+
 
 
