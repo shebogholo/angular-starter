@@ -64,7 +64,7 @@ jobs:
           target: /var/www/html/kilimofy/
 
       - name: Delete build Artifact
-        uses: actions/delete-artifact@v3
+        uses: geekyeggo/delete-artifact@v1
         with:
           name: dist
 
