@@ -19,8 +19,6 @@ jobs:
 
       - name: Code analysis
         uses: github/codeql-action/analyze@v2
-        with:
-          languages: ${{ matrix.language }}
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
